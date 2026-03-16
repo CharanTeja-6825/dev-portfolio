@@ -1,6 +1,6 @@
 # Charan Teja – Developer Portfolio
 
-A modern, animated developer portfolio built with Next.js 15, TypeScript, Tailwind CSS v4, Framer Motion, and Lenis smooth scrolling.
+A modern, animated developer portfolio built with Next.js 16, TypeScript, Tailwind CSS v4, Framer Motion, and Lenis smooth scrolling.
 
 ## Features
 
@@ -14,7 +14,7 @@ A modern, animated developer portfolio built with Next.js 15, TypeScript, Tailwi
 
 ## Stack
 
-- **Framework**: Next.js 15 (App Router, Turbopack)
+- **Framework**: Next.js 16 (App Router, Turbopack)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS v4
 - **Animation**: Framer Motion

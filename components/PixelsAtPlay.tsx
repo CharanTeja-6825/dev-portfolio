@@ -150,8 +150,8 @@ export default function PixelsAtPlay() {
           <div className="flex items-center gap-6">
             {[
               { label: "GitHub", url: "https://github.com/CharanTeja-6825" },
-              { label: "LinkedIn", url: "https://linkedin.com/in/charanteja" /* TODO: update */ },
-              { label: "Twitter", url: "https://twitter.com/charanteja" /* TODO: update */ },
+              { label: "LinkedIn", url: "https://linkedin.com/in/charanteja-6825" },
+              { label: "Twitter", url: "https://twitter.com/charanteja6825" },
             ].map(({ label, url }) => (
               <a
                 key={label}

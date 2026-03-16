@@ -148,13 +148,19 @@ export default function PixelsAtPlay() {
             © 2024 Charan Teja. Crafted with ♥ and too much coffee.
           </p>
           <div className="flex items-center gap-6">
-            {["GitHub", "LinkedIn", "Twitter"].map((s) => (
+            {[
+              { label: "GitHub", url: "https://github.com/CharanTeja-6825" },
+              { label: "LinkedIn", url: "https://linkedin.com/in/charanteja" /* TODO: update */ },
+              { label: "Twitter", url: "https://twitter.com/charanteja" /* TODO: update */ },
+            ].map(({ label, url }) => (
               <a
-                key={s}
-                href="#"
+                key={label}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white/30 hover:text-white text-sm transition-colors duration-200"
               >
-                {s}
+                {label}
               </a>
             ))}
           </div>

@@ -52,7 +52,7 @@ export default function Navbar() {
           </a>
         ))}
         <a
-          href="mailto:charan@example.com"
+          href="mailto:charanteja@example.com" /* TODO: replace with actual email */
           className="ml-2 px-5 py-2 text-sm font-semibold bg-emerald-500 hover:bg-emerald-400 text-black rounded-full transition-colors duration-200"
         >
           Hire Me

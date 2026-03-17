@@ -9,10 +9,10 @@ const categories = [
     name: "Frontend",
     color: "#3b82f6",
     items: [
-      { name: "React", level: "Advanced" },
-      { name: "JavaScript", level: "Advanced" },
-      { name: "HTML5", level: "Advanced" },
-      { name: "CSS3", level: "Advanced" },
+      { name: "React", level: "Intermediate" },
+      { name: "JavaScript", level: "Intermediate" },
+      { name: "HTML5", level: "Intermediate" },
+      { name: "CSS3", level: "Intermediate" },
     ],
   },
   {
@@ -21,16 +21,16 @@ const categories = [
     items: [
       { name: "Java", level: "Advanced" },
       { name: "Spring Boot", level: "Advanced" },
-      { name: "Python", level: "Advanced" },
-      { name: "Node.js", level: "Advanced" },
+      { name: "Python", level: "Basic" },
+      { name: "Node.js", level: "Basic" },
     ],
   },
   {
     name: "DevOps & Tools",
     color: "#f59e0b",
     items: [
-      { name: "Docker", level: "Advanced" },
-      { name: "Jenkins", level: "Advanced" },
+      { name: "Docker", level: "Intermediate" },
+      { name: "Jenkins", level: "Intermediate" },
       { name: "GitHub Actions", level: "Advanced" },
       { name: "Git", level: "Advanced" },
     ],
@@ -40,7 +40,7 @@ const categories = [
     color: "#8b5cf6",
     items: [
       { name: "MySQL", level: "Advanced" },
-      { name: "MongoDB", level: "Advanced" },
+      { name: "MongoDB", level: "Intermediate" },
       { name: "SQL", level: "Intermediate" },
       { name: "Data Modeling", level: "Intermediate" },
     ],
